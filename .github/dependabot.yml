@@ -11,7 +11,7 @@ updates:
 
   # Maintain dependencies for Docker
   - package-ecosystem: "docker"
-    directory: "/10.5/debian/default"
+    directory: "/10.5/ubuntu/default"
     schedule:
       interval: "daily"
     ignore:
@@ -19,7 +19,7 @@ updates:
         update-types: [ "version-update:semver-major", "version-update:semver-minor" ]
 
   - package-ecosystem: "docker"
-    directory: "/10.6/debian/default"
+    directory: "/10.6/ubuntu/default"
     schedule:
       interval: "daily"
     ignore:
@@ -27,7 +27,7 @@ updates:
         update-types: [ "version-update:semver-major", "version-update:semver-minor" ]
 
   - package-ecosystem: "docker"
-    directory: "/10.11/debian/default"
+    directory: "/10.11/ubuntu/default"
     schedule:
       interval: "daily"
     ignore:
@@ -35,7 +35,7 @@ updates:
         update-types: [ "version-update:semver-major", "version-update:semver-minor" ]
 
   - package-ecosystem: "docker"
-    directory: "/11.4/debian/default"
+    directory: "/11.4/ubuntu/default"
     schedule:
       interval: "daily"
     ignore:

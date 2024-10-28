@@ -16,7 +16,7 @@ RUN set -ex \
 
 RUN set -ex \
     && if [ -f /etc/dpkg/dpkg.cfg.d/docker ]; then \
-            # If this file exists, we are likely in "debian:xxx-slim" and locales are thus being excluded
+            # If this file exists, we are likely in "ubuntu:xxx-slim" and locales are thus being excluded
             # so we need to remove that exclusion (since we need locales).
             grep -q '/usr/share/locale' /etc/dpkg/dpkg.cfg.d/docker; \
             sed -ri '/\/usr\/share\/locale/d' /etc/dpkg/dpkg.cfg.d/docker; \
