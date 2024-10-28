@@ -1,4 +1,4 @@
-# MariaDb Docker image
+# MariaDB Docker image
 
 [![Build Status](https://github.com/nicoherbigio/docker-mariadb/actions/workflows/build-docker-images.yml/badge.svg)](https://github.com/nicoherbigio/docker-mariadb/actions/workflows/build-docker-images.yml)
 
