@@ -1,4 +1,4 @@
-FROM mariadb:10.5.26-focal
+FROM mariadb:10.5.27-focal
 
 LABEL maintainer="Nico Herbig <nico@nicoherbig.io>"
 
