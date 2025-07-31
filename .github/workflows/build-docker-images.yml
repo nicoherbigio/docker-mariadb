@@ -28,8 +28,8 @@ jobs:
             docker-tags: |
               nicoherbigde/mariadb:10.5
               nicoherbigde/mariadb:10.5-focal
-              nicoherbigde/mariadb:10.5.28
-              nicoherbigde/mariadb:10.5.28-focal
+              nicoherbigde/mariadb:10.5.29
+              nicoherbigde/mariadb:10.5.29-focal
           - version: 10.6-focal
             docker-context: 10.6/ubuntu/default
             docker-tags: |
