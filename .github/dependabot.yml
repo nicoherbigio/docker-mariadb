@@ -11,14 +11,6 @@ updates:
 
   # Maintain dependencies for Docker
   - package-ecosystem: "docker"
-    directory: "/10.5/ubuntu/default"
-    schedule:
-      interval: "daily"
-    ignore:
-      - dependency-name: "mariadb"
-        update-types: [ "version-update:semver-major", "version-update:semver-minor" ]
-
-  - package-ecosystem: "docker"
     directory: "/10.6/ubuntu/default"
     schedule:
       interval: "daily"
