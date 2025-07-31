@@ -20,15 +20,15 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        version: [10.6-focal, 10.11-jammy, 11.4-noble]
+        version: [10.6-jammy, 10.11-jammy, 11.4-noble]
         include:
-          - version: 10.6-focal
+          - version: 10.6-jammy
             docker-context: 10.6/ubuntu/default
             docker-tags: |
               nicoherbigde/mariadb:10.6
-              nicoherbigde/mariadb:10.6-focal
+              nicoherbigde/mariadb:10.6-jammy
               nicoherbigde/mariadb:10.6.22
-              nicoherbigde/mariadb:10.6.22-focal
+              nicoherbigde/mariadb:10.6.22-jammy
           - version: 10.11-jammy
             docker-context: 10.11/ubuntu/default
             docker-tags: |
