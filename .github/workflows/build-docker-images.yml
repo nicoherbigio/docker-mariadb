@@ -41,8 +41,8 @@ jobs:
             docker-tags: |
               nicoherbigde/mariadb:11.4
               nicoherbigde/mariadb:11.4-noble
-              nicoherbigde/mariadb:11.4.5
-              nicoherbigde/mariadb:11.4.5-noble
+              nicoherbigde/mariadb:11.4.7
+              nicoherbigde/mariadb:11.4.7-noble
 
     steps:
       - name: Checkout Git Repository
