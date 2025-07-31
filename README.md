@@ -6,7 +6,7 @@
 
  * [`11.4`, `11.4-noble`, `11.4.5`, `11.4.5-noble`](https://github.com/nicoherbigio/docker-mariadb/blob/main/11.4/ubuntu/default/Dockerfile)
  * [`10.11`, `10.11-jammy`, `10.11.11`, `10.11.11-jammy`](https://github.com/nicoherbigio/docker-mariadb/blob/main/10.11/ubuntu/default/Dockerfile)
- * [`10.6`, `10.6-focal`, `10.6.21`, `10.6.21-focal`](https://github.com/nicoherbigio/docker-mariadb/blob/main/10.6/ubuntu/default/Dockerfile)
+ * [`10.6`, `10.6-focal`, `10.6.22`, `10.6.22-focal`](https://github.com/nicoherbigio/docker-mariadb/blob/main/10.6/ubuntu/default/Dockerfile)
 
 ## How to get this image
 
