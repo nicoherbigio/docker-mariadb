@@ -1,4 +1,4 @@
-FROM mariadb:11.8.2-noble
+FROM mariadb:11.8.3-noble
 
 LABEL maintainer="Nico Herbig <nico@nicoherbig.io>"
 
