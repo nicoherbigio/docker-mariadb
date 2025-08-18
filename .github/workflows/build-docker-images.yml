@@ -35,8 +35,8 @@ jobs:
             docker-tags: |
               nicoherbigde/mariadb:10.11
               nicoherbigde/mariadb:10.11-jammy
-              nicoherbigde/mariadb:10.11.13
-              nicoherbigde/mariadb:10.11.13-jammy
+              nicoherbigde/mariadb:10.11.14
+              nicoherbigde/mariadb:10.11.14-jammy
           - version: 11.4-noble
             docker-context: 11.4/ubuntu/default
             docker-tags: |
