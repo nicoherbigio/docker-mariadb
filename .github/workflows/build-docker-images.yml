@@ -50,8 +50,8 @@ jobs:
             docker-tags: |
               nicoherbigde/mariadb:11.8
               nicoherbigde/mariadb:11.8-noble
-              nicoherbigde/mariadb:11.8.3
-              nicoherbigde/mariadb:11.8.3-noble
+              nicoherbigde/mariadb:11.8.4
+              nicoherbigde/mariadb:11.8.4-noble
           - version: 12.0-noble
             docker-context: 12.0/ubuntu/default
             docker-tags: |
