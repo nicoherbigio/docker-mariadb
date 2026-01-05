@@ -10,7 +10,6 @@ on:
       - '10.11/**'
       - '11.4/**'
       - '11.8/**'
-      - '12.1/**'
   schedule:
     - cron: '0 1 * * 6'
   workflow_dispatch:
@@ -22,7 +21,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        version: [10.6-jammy, 10.11-jammy, 11.4-noble, 11.8-noble, 12.1-noble]
+        version: [10.6-jammy, 10.11-jammy, 11.4-noble, 11.8-noble]
         include:
           - version: 10.6-jammy
             docker-context: 10.6/ubuntu/default
@@ -52,13 +51,6 @@ jobs:
               nicoherbigde/mariadb:11.8-noble
               nicoherbigde/mariadb:11.8.5
               nicoherbigde/mariadb:11.8.5-noble
-          - version: 12.1-noble
-            docker-context: 12.1/ubuntu/default
-            docker-tags: |
-              nicoherbigde/mariadb:12.1
-              nicoherbigde/mariadb:12.1-noble
-              nicoherbigde/mariadb:12.1.2
-              nicoherbigde/mariadb:12.1.2-noble
 
     steps:
       - name: Checkout Git Repository
