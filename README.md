@@ -4,7 +4,7 @@
 
 ## Supported tags and respective `Dockerfile` links
 
- * [`11.8`, `11.8-noble`, `11.8.5`, `11.8.5-noble`](https://github.com/nicoherbigio/docker-mariadb/blob/main/11.8/ubuntu/default/Dockerfile)
+ * [`11.8`, `11.8-noble`, `11.8.6`, `11.8.6-noble`](https://github.com/nicoherbigio/docker-mariadb/blob/main/11.8/ubuntu/default/Dockerfile)
  * [`11.4`, `11.4-noble`, `11.4.10`, `11.4.10-noble`](https://github.com/nicoherbigio/docker-mariadb/blob/main/11.4/ubuntu/default/Dockerfile)
  * [`10.11`, `10.11-jammy`, `10.11.16`, `10.11.16-jammy`](https://github.com/nicoherbigio/docker-mariadb/blob/main/10.11/ubuntu/default/Dockerfile)
  * [`10.6`, `10.6-jammy`, `10.6.25`, `10.6.25-jammy`](https://github.com/nicoherbigio/docker-mariadb/blob/main/10.6/ubuntu/default/Dockerfile)
