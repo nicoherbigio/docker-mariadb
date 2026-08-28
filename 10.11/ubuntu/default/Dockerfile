@@ -1,4 +1,4 @@
-FROM mariadb:10.11.18-jammy
+FROM mariadb:10.11.19-jammy
 
 LABEL maintainer="Nico Herbig <nico@nicoherbig.io>"
 
